@@ -5,6 +5,9 @@
 
 .heading-1 {
   @extend %heading;
+  font-size: 4.5rem;
+  color: $color-grey-light-1;
+  line-height: 1;
 }
 
 .heading-2 {
@@ -15,7 +18,6 @@
 
   &--light { color: $color-grey-light-1; }
   &--dark { color: $color-grey-dark-1; }
-
 }
 
 .heading-3 {
@@ -37,7 +39,7 @@
   background-color: $color-primary;
   color: #fff;
   border: none;
-  border-radius: none;
+  border-radius: 0;
   font-family: $font-display;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -46,11 +48,11 @@
   transition: all .2s;
 
   &:hover {
-    background-color: $color-primary-dark;
+      background-color: $color-primary-dark;
   }
 }
 
-.mb-sm {margin-bottom: 2rem;}
-.mb-md {margin-bottom: 3rem;}
-.mb-lg {margin-bottom: 4rem;}
-.mb-hg {margin-bottom: 5rem;}
+.mb-sm { margin-bottom: 2rem; }
+.mb-md { margin-bottom: 3rem; }
+.mb-lg { margin-bottom: 4rem; }
+.mb-hg { margin-bottom: 8rem; }
